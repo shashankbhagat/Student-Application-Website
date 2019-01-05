@@ -1,0 +1,64 @@
+﻿@model StudentApplication.Models.CourseEnrolledVM
+
+@{
+    ViewBag.Title = "Semwise Registered Courses";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Courses registered sem-wise</h2>
+@Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true,"",new { @class="text-danger" })
+    <div class="row">
+        <div class="col-md-2">
+            @using (Ajax.BeginForm("ShowEnrollmentSemwise_Ajaxform", "Student",
+                Model.semSelected, new AjaxOptions
+                {
+                    InsertionMode = InsertionMode.Replace,
+                    HttpMethod = "Get",
+                    OnFailure = "EnrollmentLoadFailure",  //JS function
+                    OnSuccess = "EnrollmentLoadOK",
+                    AllowCache = false,
+                    LoadingElementId = "divLoading",
+                    UpdateTargetId = "divEnrollment",
+                }))
+            {
+                @Html.DropDownListFor(model=>model.semSelected,Model.SList,new { htmlattribute = new {@class="form-control"}})
+            }
+        </div>
+        <div class="col-md-10" style="display:none" id="divLoading">
+            Please wait, loading data.....
+        </div>
+        <div class="col-md-10" id="divEnrollment">
+            @{ 
+                Html.RenderPartial("_ShowEnrollmentSemwise", Model.CEList);
+            }
+        </div>
+    </div>
+</div>
+<div id="divStatus"></div>
+
+@section Scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>        
+        $(function () {
+            $("#semSelected").change(function () {
+                $("#divLoading").html("Please wait, loading data.....");
+                $("#divEnrollment").html("");
+                $(this).closest('form').submit();
+            });
+        });
+
+        function EnrollmentLoadFailure(response) {
+            $("#divLoading").html("Problem loading data....");
+        }
+
+        function EnrollmentLoadOK(response) {
+            $("#divStatus").html("data loaded...");
+        }
+    </script>
+}
+

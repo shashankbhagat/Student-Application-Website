@@ -1,0 +1,93 @@
+﻿@model StudentApplication.Models.RegisterCourseVM
+
+@{
+    ViewBag.Title = "Un-register Course";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2 style="background-color:wheat">Un-register your Courses</h2>
+@using (Ajax.BeginForm("unRegisterCourse", "Student",
+                            new AjaxOptions
+                            {
+                                InsertionMode = InsertionMode.Replace,
+
+                                OnFailure = "EnrollmentLoadFailure",  //JS function
+                                OnSuccess = "EnrollmentLoadOK",
+                                AllowCache = false,
+                                LoadingElementId = "divLoading",
+                                UpdateTargetId = "tdUnRegister",
+                            }))
+{
+    <table style="background-color:wheat">
+        <tr>
+            <td style="width:20%; text-align:center">
+                &nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="width:80%; text-align:center">
+                &nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="width:20%; text-align:center">
+                
+                @Html.DropDownListFor(a => a.CSelected, Model.CList)
+            </td>
+            <td style="width:80%; text-align:center" id="tdUnRegister">
+                @{
+                    Html.RenderPartial("_RegisterCourse", Model.course);
+                }
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                
+                    <input type="submit" value="Submit" name="btnSubmit" class="btn btn-default" />
+                
+            </td>
+        </tr>
+    </table>
+    <div style="background-color:wheat" id="divMsg">
+
+    </div>
+
+        <div style="background-color:wheat" id="divExmsg">
+
+        </div>
+
+        <div id="divStatus" style="background-color:wheat"></div>
+
+        <div style="background-color:wheat" id="test1">
+            @ViewBag.msg
+        </div>
+
+        <div style="background-color:wheat" id="test2">
+            @ViewBag.Exmsg
+        </div>
+
+                    }
+
+
+@section Scripts{
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script>
+        $(function () {
+            
+            $("#CSelected").change(function () {
+                $("#divLoading").html("Please wait, loading data.....");
+                $("#divRegister").html("");
+                $(this).closest('form').submit();
+            });
+        });
+
+        function EnrollmentLoadFailure(response) {
+            $("#divLoading").html("Problem loading data....");
+        }
+
+        function EnrollmentLoadOK(response) {
+            $("#divMsg").html(@ViewBag.msg);            
+            $("#divStatus").html(@ViewBag.Exmsg);
+            $("#test1").show();
+            $("#test2").show();
+        }
+</script>
+    }

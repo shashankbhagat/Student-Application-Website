@@ -1,0 +1,177 @@
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\ApplicationInsights.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csc.exe
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csc.exe.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csc.rsp
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csi.exe
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csi.exe.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\csi.rsp
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.AppContext.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Console.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Claims.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Threading.Thread.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\vbc.exe
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\vbc.exe.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\vbc.rsp
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\StudentApplication.dll.config
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\StudentApplication.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\StudentApplication.pdb
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Antlr3.Runtime.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.Web.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Newtonsoft.Json.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Helpers.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Mvc.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Optimization.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Razor.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\WebGrease.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Helpers.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Mvc.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Optimization.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.Razor.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Antlr3.Runtime.pdb
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Newtonsoft.Json.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\bin\Microsoft.AI.Web.xml
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\obj\Debug\StudentApplication.csprojResolveAssemblyReference.cache
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\obj\Debug\StudentApplication.csproj.CoreCompileInputs.cache
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\obj\Debug\StudentApplication.dll
+C:\Users\SHASHANK\source\repos\WebBasedApplication\MVC\StudentApplication\StudentApplication\obj\Debug\StudentApplication.pdb
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\ApplicationInsights.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\csc.exe.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\csc.rsp
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\csi.exe.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\csi.rsp
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.AppContext.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Collections.Immutable.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Console.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.Process.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.IO.Compression.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.IO.Pipes.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Reflection.Metadata.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.AccessControl.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Claims.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Threading.Thread.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.ValueTuple.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XPath.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\vbc.exe.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\vbc.rsp
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\VBCSCompiler.exe.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\roslyn\csc.exe
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\StudentApplication.dll.config
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\StudentApplication.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\StudentApplication.pdb
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Antlr3.Runtime.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.DependencyCollector.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.Web.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.WindowsServer.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.ApplicationInsights.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.Web.Infrastructure.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Newtonsoft.Json.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Helpers.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Mvc.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Optimization.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Razor.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.Deployment.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.Razor.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\WebGrease.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Helpers.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Mvc.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Optimization.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.Razor.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.Deployment.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\System.Web.WebPages.Razor.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Antlr3.Runtime.pdb
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Newtonsoft.Json.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.ApplicationInsights.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.DependencyCollector.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.WindowsServer.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\bin\Microsoft.AI.Web.xml
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\obj\Debug\StudentApplication.csprojResolveAssemblyReference.cache
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\obj\Debug\StudentApplication.csproj.CoreCompileInputs.cache
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\obj\Debug\StudentApplication.dll
+H:\Shashank-The Phenom\MS Books\Web Development\1029055_#7_BhagatShashank\StudentApplication\StudentApplication\obj\Debug\StudentApplication.pdb

@@ -1,0 +1,110 @@
+﻿@model StudentApplication.Models.RegisterCourseVM
+
+@{
+    ViewBag.Title = "Course Registration";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Register your Courses</h2>
+
+
+
+        <div style="background-color:wheat">
+@using (Ajax.BeginForm("RegisterCourse", "Student",
+                                                                    new AjaxOptions
+                                                                    {
+                                                                        InsertionMode = InsertionMode.Replace,
+
+                                                                        OnFailure = "EnrollmentLoadFailure",  //JS function
+                                                                        OnSuccess = "EnrollmentLoadOK",
+                                                                        AllowCache = false,
+                                                                        LoadingElementId = "divLoading",
+                                                                        UpdateTargetId = "tdRegister",
+                                                                    }))
+{
+    <table style="background-color:wheat">
+        <tr>
+            <td style="width:20%; text-align:center">
+
+                @Html.DropDownListFor(x => x.semselected, Model.semList, new { htmlattribute = new { @class = "form-control" } })
+            </td>
+            <td style="width:80%; text-align:center">
+                &nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="width:20%; text-align:center">
+                @Html.DropDownListFor(model => model.CSelected, Model.CList, new { htmlattribute = new { @class = "form-control" } })
+            </td>
+            <td style="width:80%; text-align:center" id="tdRegister">
+
+                @{
+                    Html.RenderPartial("_RegisterCourse", Model.course);
+                }
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+
+
+                <input type="submit" value="Submit" name="divRegister" id="divRegister" class="btn btn-default" />
+
+
+
+            </td>
+        </tr>
+    </table>
+            <div id="divRegister" style="display:none" title="Course Registration">
+                <p>
+                    @ViewBag.msg<br />
+                    @ViewBag.Exmsg
+                </p>                
+            </div>
+}
+        </div>
+
+        
+        <div style="background-color:wheat" id="divMsg">
+
+        </div>
+
+        <div style="background-color:wheat" id="divExmsg">
+
+        </div>
+
+        <div id="divStatus" style="background-color:wheat"></div>
+
+
+        
+ 
+
+
+@section Scripts{
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#semselected").change(function () {
+                $(this).closest('form').submit();
+            });
+
+            $("#CSelected").change(function () {
+                $("#divLoading").html("Please wait, loading data.....");
+                $("#divRegister").html("");
+                $(this).closest('form').submit();
+            });
+            
+            
+        });
+
+        function EnrollmentLoadFailure(response) {
+            $("#divRegister").show();               
+
+        }
+
+        function EnrollmentLoadOK(response) {
+                $("#divRegister").show();                
+        }
+    </script>
+}

@@ -1,0 +1,224 @@
+﻿@model StudentApplication.Models.StudentListVM
+
+@{
+    ViewBag.Title = "Students List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="background-color:wheat;text-align:center">Registered Students</h2>
+<h4>
+    @Html.ActionLink("Add Student", "AddStudent",null,new { @style= "color:darkgoldenrod" })
+</h4>
+<div style="background-color:wheat">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].StudentId)                
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].State)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SList[0].Telephone)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.SList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Street)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telephone)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit","EditStudent",new { id=item.StudentId},new { @class="myedit"})  |   
+                    @Html.ActionLink("Details", "Details", new { id = item.StudentId }, new { @class = "mydetail" })  |   
+                    @Html.ActionLink("Delete", "DeleteStudent", new { id = item.StudentId }, new { @class = "mydelete" })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<div id="divStatus"></div>
+<div id="EditDialogdiv" style="display:none"></div>
+<div id="dlgConfirm" style="display:none" title="Delete Student Record?">
+    <p>
+        <span class="ui-icon ui-icon-alert" style="float:left;margin:0 7px 20px 0"></span>
+        Delete selected student, Confirm?
+    </p>
+</div>
+
+@section Scripts
+{
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(function () {
+            $(".mydelete").on("click", function (e) {
+                var rowDel = $(this).closest("tr");
+                $("#dlgConfirm").show();
+                $("#dlgConfirm").dialog({
+                    buttons: {
+                        "Confirm": function () {
+                            $(this).dialog("close");
+                            Studentid = rowDel.children('td:first').text();
+                            $.ajax({
+                                url: "DeleteStudent/" + "?id=" + Studentid,
+                                success: function () {
+                                    rowDel.remove().draw();
+                                    $("#dlgConfirm").hide();
+                                },
+                                error: function (xmlhttp, textStatus, errorThrown) {
+                                    alert(errorThrown);
+                                }
+                            });
+                        },
+                        "Cancel": function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    "modal": true
+                });
+                e.preventDefault();
+                return false;
+            });
+
+            //----------Edit------------
+            var DialogEdit = function () {
+                this.showDialog = function (url) {
+                    $("#EditDialogdiv").dialog({
+                        autoOpen: true,
+                        width: "600",
+                        resizeable: false,
+                        title: "Edit Student Details",
+                        modal: true,
+                        closeText: "X",
+                        dialogClass: 'alert',
+                        position: {
+                            my: "center",
+                            at: "top+150"
+                        },
+                        closeOnEscape: true,
+                        open: function () {
+                            $(this).load(url);
+                        },
+                        buttons: {
+                            "Save Details": function () {
+                                editStudentDetails(url);    //JS function
+                            },
+                            "Cancel": function () {
+                                $(this).dialog("close");
+                            }
+                        }
+                    });
+                }
+                this.closeDialog = function () {
+                    $(this).dialog("close");
+                }
+            }
+
+            $(".myedit").on("click", function (e) {
+                dialogEdit = new DialogEdit();
+                url = $(this).attr("href");
+                dialogEdit.showDialog(url);
+                e.preventDefault();
+                return false;
+            });
+
+            //----------------Details------------------------
+            var DialogEdit = function () {
+                this.showDialog = function (url) {
+                    $("#EditDialogdiv").dialog({
+                        autoOpen: true,
+                        width: "600",
+                        resizeable: false,
+                        title: "Student Details",
+                        modal: true,
+                        closeText: "X",
+                        dialogClass: 'alert',
+                        position: {
+                            my: "center",
+                            at: "top+150"
+                        },
+                        closeOnEscape: true,
+                        open: function () {
+                            $(this).load(url);
+                        },
+                        buttons: {                            
+                            "Close": function () {
+                                $(this).dialog("close");
+                            }
+                        }
+                    });
+                }
+                this.closeDialog = function () {
+                    $(this).dialog("close");
+                }
+            }
+
+            $(".mydetail").on("click", function (e) {
+                dialogEdit = new DialogEdit();                
+                url = $(this).attr("href");
+                dialogEdit.showDialog(url);
+                e.preventDefault();
+                return false;
+            });
+        });
+
+        function editStudentDetails(posturl) {
+            $.ajax({
+                url: posturl,
+                type: "POST",
+                data: $("form").serialize(),
+                success: function (data) {
+                    if (data) {
+                        if (data.result == true) {
+                            $("#divStatus").html(data.responseText).removeClass("text-danger");
+                            $("#divStatus").html(data.responseText).addClass("text-success");
+                        }
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $("#divStatus").removeClass("text-success");
+                    $("#divStatus").html(textStatus + " Error: " + errorThrown).addClass("text-danger");
+                }
+            });
+        }
+    </script>
+}

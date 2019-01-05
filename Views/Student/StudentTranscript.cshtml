@@ -1,0 +1,58 @@
+﻿@model IEnumerable<StudentApplication.Models.StudentTranscriptVM>
+
+@{
+    ViewBag.Title = "StudentTranscript";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<table class="table" style="border:1px dashed;background-color:wheat">
+    <tr>
+        <th colspan="7">            
+            <h3>Student ID: @ViewBag.StudentID - GPA: @ViewBag.GPA</h3>                
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SemeterId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Grade)
+        </th>        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SemeterId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartmentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Grade)
+        </td>        
+    </tr>
+}
+
+</table>
